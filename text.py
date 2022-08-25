@@ -1,7 +1,7 @@
-#from transformers import pipeline
-#from transformers import logging
-#import os
-#os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+from transformers import pipeline
+from transformers import logging
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import  requests
 import json
 from tkinter import *
