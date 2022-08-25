@@ -15,14 +15,13 @@ print(emotion_text)
 logging.set_verbosity_warning()
 '''
 def textrun():
-    '''logging.set_verbosity_warning()
+    logging.set_verbosity_warning()
 
     actualtext = textentry.get("1.0", "end-1c")
     emotion = pipeline('sentiment-analysis', model='arpanghoshal/EmoRoBERTa')
     emotion_text = emotion(actualtext)
     outputtxt.delete('1.0', END)
-    outputtxt.insert(END, emotion_text)'''
-    print("")
+    outputtxt.insert(END, emotion_text)
 
 def show():
 
